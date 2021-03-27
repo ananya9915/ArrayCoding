@@ -1,13 +1,9 @@
-
-
 package arrayinterview;
 
 import java.util.Scanner;
 
-
-
 public class MaximunAndMinimumElementInAnArray {
-    public static int maxElement(int arr[])
+    public int maxElement(int arr[])
     {
         int max=arr[0];
         for(int i=1;i<arr.length;i++)
@@ -22,7 +18,7 @@ public class MaximunAndMinimumElementInAnArray {
         
     }
     
-    public static int minElement(int arr[])
+    public int minElement(int arr[])
     {
         int min=arr[0];
         for(int i=1;i<arr.length;i++)
@@ -36,7 +32,7 @@ public class MaximunAndMinimumElementInAnArray {
                 
         
     }
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The Length Of The Array: ");
         int n=sc.nextInt();
